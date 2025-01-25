@@ -1,5 +1,4 @@
-local defs = {}
-defs["ImGuiWindow"] = "struct ImGuiWindow"
-defs["Style"] = "struct Style"
-
-return defs
+local t={
+  ImGuiWindow="struct ImGuiWindow",
+  Style="struct Style"}
+ return t

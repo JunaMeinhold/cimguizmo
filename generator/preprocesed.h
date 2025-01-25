@@ -8,6 +8,7 @@ namespace ImGuizmo
    bool IsOver();
    bool IsUsing();
    bool IsUsingViewManipulate();
+   bool IsViewManipulateHovered();
    bool IsUsingAny();
    void Enable(bool enable);
    void DecomposeMatrixToComponents(const float* matrix, float* translation, float* rotation, float* scale);

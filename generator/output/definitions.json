@@ -903,28 +903,6 @@
       "stname": ""
     }
   ],
-  "ImGuizmo_deprecated": [
-    {
-      "args": "(\"Use PushID/PopID instead.\")",
-      "argsT": [
-        {
-          "name": "instead.\"",
-          "type": "\"Use PushID/PopID"
-        }
-      ],
-      "argsoriginal": "(\"Use PushID/PopID instead.\")",
-      "call_args": "(instead.\")",
-      "cimguiname": "ImGuizmo_deprecated",
-      "defaults": {},
-      "funcname": "deprecated",
-      "location": "ImGuizmo:226",
-      "namespace": "ImGuizmo",
-      "ov_cimguiname": "ImGuizmo_deprecated",
-      "ret": "]] void",
-      "signature": "(\"Use PushID/PopID)",
-      "stname": ""
-    }
-  ],
   "Style_Style": [
     {
       "args": "()",
