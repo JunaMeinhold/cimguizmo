@@ -83,6 +83,7 @@ CIMGUI_API void ImGuizmo_SetImGuiContext(ImGuiContext *ctx);
 CIMGUI_API bool ImGuizmo_IsOver_Nil(void);
 CIMGUI_API bool ImGuizmo_IsUsing(void);
 CIMGUI_API bool ImGuizmo_IsUsingViewManipulate(void);
+CIMGUI_API bool ImGuizmo_IsViewManipulateHovered(void);
 CIMGUI_API bool ImGuizmo_IsUsingAny(void);
 CIMGUI_API void ImGuizmo_Enable(bool enable);
 CIMGUI_API void ImGuizmo_DecomposeMatrixToComponents(const float *matrix, float *translation, float *rotation, float *scale);
@@ -95,6 +96,7 @@ CIMGUI_API bool ImGuizmo_Manipulate(const float *view, const float *projection, 
 CIMGUI_API void ImGuizmo_ViewManipulate_Float(float *view, float length, ImVec2 position, ImVec2 size, ImU32 backgroundColor);
 CIMGUI_API void ImGuizmo_ViewManipulate_FloatPtr(float *view, const float *projection, OPERATION operation, MODE mode, float *matrix, float length, ImVec2 position, ImVec2 size, ImU32 backgroundColor);
 CIMGUI_API void ImGuizmo_SetAlternativeWindow(ImGuiWindow *window);
+CIMGUI_API void ImGuizmo_SetID(int id);
 CIMGUI_API void ImGuizmo_PushID_Str(const char *str_id);
 CIMGUI_API void ImGuizmo_PushID_StrStr(const char *str_id_begin, const char *str_id_end);
 CIMGUI_API void ImGuizmo_PushID_Ptr(const void *ptr_id);
