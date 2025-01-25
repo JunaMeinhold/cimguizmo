@@ -29,6 +29,10 @@ CIMGUI_API bool ImGuizmo_IsUsingViewManipulate()
 {
     return ImGuizmo::IsUsingViewManipulate();
 }
+CIMGUI_API bool ImGuizmo_IsViewManipulateHovered()
+{
+    return ImGuizmo::IsViewManipulateHovered();
+}
 CIMGUI_API bool ImGuizmo_IsUsingAny()
 {
     return ImGuizmo::IsUsingAny();
@@ -76,6 +80,10 @@ CIMGUI_API void ImGuizmo_ViewManipulate_FloatPtr(float *view, const float *proje
 CIMGUI_API void ImGuizmo_SetAlternativeWindow(ImGuiWindow *window)
 {
     return ImGuizmo::SetAlternativeWindow(window);
+}
+CIMGUI_API void ImGuizmo_SetID(int id)
+{
+    return ImGuizmo::SetID(id);
 }
 CIMGUI_API void ImGuizmo_PushID_Str(const char *str_id)
 {
