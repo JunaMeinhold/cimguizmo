@@ -11,7 +11,7 @@ file(GLOB IMGUI_SOURCES
     ../cimgui/imgui/imgui_widgets.cpp
 	../cimgui/imgui/imgui_tables.cpp
 	cimguizmo.cpp
-	ImGuizmo/ImGuizmo.cpp
+	ImGuizmo/src/ImGuizmo.cpp
 )
 
 set(IMGUI_STATIC "no" CACHE STRING "Build as a static library")
